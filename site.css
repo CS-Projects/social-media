@@ -1,0 +1,147 @@
+body,html {
+margin:0;
+padding:0;
+}
+#yardim div{
+display: none;
+position:absolute;
+top: -100px;
+background: #fefae2;
+z-index: 300;
+border: 1px solid silver;
+width: 550px;
+font-weight: normal;
+padding: 10px;
+font-size: 14px;
+}
+#slogan {
+background:#edeff4;
+padding:15px;
+}
+
+span {
+float:right;
+cursor:pointer;
+color:gray;
+margin-right: 5px;
+}
+
+div img {
+float:left;
+margin-right:4px;
+}
+
+div {
+overflow:hidden;
+margin:4px;
+padding:4px;
+}
+
+.mesaj {
+border-top:1px solid silver;
+width:600px;
+}
+
+.yorum,.mesaj {
+font-size:13px;
+clear:left;
+}
+
+.yorum {
+background:#edeff4;
+width:530px;
+position:relative;
+left:60px;
+}
+
+.mesaj_yaz,.yorum_yaz {
+height:15px;
+border:1px solid silver;
+color:gray;
+}
+
+#ara {
+color:silver;
+height:20px;
+font-size:11px;
+font-family:Arial;
+width:300px;
+}
+
+abbr {
+color:green;
+font-style:italic;
+}
+
+#sol {
+width:15%;
+font-size:11px;
+font-family:Verdana;
+font-weight:700;
+}
+
+/*
+.uye {
+width:180px;
+height:254px;
+}
+
+.resim {
+width:50px;
+height:50px;
+}
+*/
+.resim1 {
+width:50px;
+height:50px;
+}
+
+.resim2 {
+width:32px;
+height:32px;
+}
+
+.resim3 {
+width:30px;
+height:30px;
+}
+
+#sol,#ust {
+float:left;
+margin:4px;
+padding:4px;
+overflow: hidden;
+}
+
+#ust {
+border:1px solid silver; overflow: hidden;
+width:50%;
+}
+
+#sol img {
+clear:both;
+vertical-align:middle;
+border:1px solid silver;
+padding:2px;
+}
+
+#ara_liste {
+position:absolute;
+left:200px;
+top:60px;
+z-index:1000;
+border:1px solid silver;
+width:200px;
+background:#eee;
+font-size:12px;
+}
+
+.mesaj_yaz {
+width:80%;
+height:30px;
+}
+
+.yorum_yaz {
+width:80%;
+overflow: hidden;
+} 
