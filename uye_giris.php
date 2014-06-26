@@ -1,4 +1,5 @@
 <?php
+//for logging in your account
 error_reporting(E_ALL ^ E_NOTICE);
 ini_set('error_reporting', E_ALL ^ E_NOTICE ^ E_DEPRECATED);
 session_start();
@@ -33,3 +34,4 @@ exit();
 }
 $db->close();
 ?>
+//
